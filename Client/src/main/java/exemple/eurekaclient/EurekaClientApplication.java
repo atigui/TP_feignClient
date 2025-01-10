@@ -20,9 +20,9 @@ public class EurekaClientApplication {
     @Bean
     CommandLineRunner initializerBaseH2(ClientRepository clientRepository) {
         return args -> {
-            clientRepository.save(new Client(null,"aya", 22));
-            clientRepository.save(new Client(null,"douaa", 22));
-            clientRepository.save(new Client(null,"elfahimi", 22));
+            clientRepository.save(new Client(null,"aziza", 22));
+            clientRepository.save(new Client(null,"kawtar", 22));
+            clientRepository.save(new Client(null,"atigui", 22));
         };
     }
 }
